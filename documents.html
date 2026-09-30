@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rhia Mae C. Elediros — Computer Science Student & Aspiring Game Developer.">
+  <title>Documents · RE.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html" aria-label="Rhia Mae Elediros Home">
+      <span class="logo-mark"><span>RE</span></span>
+      <span> </span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="documents.html">Documents</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page container fade-in">
+  <div class="page-heading">
+    <div>
+      <div class="section-kicker">04 · Documents</div>
+      <h1>Academic <span class="gradient-text"> Archive.</span></h1>
+      <p class="doc-intro">
+        This section contains academic materials, including coursework, laboratory activities, assessments, and performance tasks. 
+      </p>
+    </div>
+  </div>
+
+  <div class="doc-tabs" role="tablist" aria-label="Document categories">
+    <button class="doc-tab active" data-filter="all">All</button>
+    <button class="doc-tab" data-filter="activities">Activities</button>
+    <button class="doc-tab" data-filter="quizzes">Quizzes</button>
+    <button class="doc-tab" data-filter="exams">Exams</button>
+  </div>
+
+  <div class="doc-grid">
+    <!--
+      TO ADD YOUR REAL DOCUMENT:
+      1. Upload the file to your GitHub repository.
+      2. Change href="..." to the file path.
+      3. Set data-category to activities, quizzes, exams, or projects.
+      4. Change the title and description.
+    -->
+
+    <a class="doc-card" data-category="activities" href="documents/activities.html">
+      <span class="doc-type">Coursework</span>
+      <h3>Activities</h3>
+      <p>Laboratory activities, exercises, worksheets, and other academic activities.</p>
+      <span class="open">Open archive ➔ </span>
+    </a>
+
+    <a class="doc-card" data-category="quizzes" href="documents/quizzes.html">
+      <span class="doc-type">Assessment</span>
+      <h3>Quizzes</h3>
+      <p>Short quiz and long quiz.</p>
+      <span class="open">Open archive ➔ </span>
+    </a>
+
+    <a class="doc-card" data-category="exams" href="documents/exams.html">
+      <span class="doc-type">Evaluation</span>
+      <h3> Exams </h3>
+      <p>Midterm and Final examination.</p>
+      <span class="open">Open archive ➔ </span>
+    </a>
+
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© <span data-year></span> <span> | Rhia Elediros </span></p>
+    <a href="https://github.com/rhiaelediros" target="_blank" rel="noopener"> Visit my GitHub </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
